@@ -1,0 +1,26 @@
+blazedemo – Travel Agency
+
+Scenarios:
+1. URL navigation
+2. Home page UI validation
+3. End to end flow of ticket booking
+4. Entries for departure city and destination city
+	- Verify departure city and destination city are not same while proceeding further
+	- Verify spelling of cities mentioned in dropdowns are correct.
+	- Verify by default first entry is selected in dropdown
+5. Flights listing page validation
+	- Verify 'Choose This Flight' button is displayed on each row
+	- Verify no duplicate records are present for flights
+	- Verify 'Departs:<city name>' indicates departure city selected and 'Arrives:<city name>' indicates destination city as selected on first page
+	- Verify user is able to select only one flight at a time
+	- Verify user is navigated to seat reservation page after clicking on any one of the 'Choose This Flight' buttons
+6. Reservation page
+	- Verify airline details match with the listing page
+	- UI validation for all webElements on reservation page
+	- Verify maximum size of each textbox.
+	- Verify user is able to select only one type of card and card number should match with its type format
+	- Verify comfirmation page is displayed after clicking on 'Purchase Flight' button
+7. Confirmation page validation
+	- Verify all the details are displayed correctly
+	- Verify ID generated is unique and follows given format
+	- Verify json displayed also contains same information
